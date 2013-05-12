@@ -1,0 +1,63 @@
+development:
+  files:
+    first_names:
+      path: res/first_names
+      freq: true
+    last_names:
+      path: res/last_names
+      freq: true
+    last_name_prefixes:
+      path: res/last_name_prefixes
+      freq: false
+    prefixes:
+      path: res/prefixes
+      freq: false
+    suffixes:
+      path: res/suffixes
+      freq: false
+  stop_words:
+    first_name_stop_words: res/eng_fn_words
+    last_name_stop_words: res/eng_ln_words
+
+test:
+  files:
+    first_names:
+      path: samples/res/first_names
+      freq: true
+    last_names:
+      path: samples/res/last_names
+      freq: true
+    last_name_prefixes:
+      path: samples/res/last_name_prefixes
+      freq: false
+    prefixes:
+      path: samples/res/prefixes
+      freq: false
+    suffixes:
+      path: samples/res/suffixes
+      freq: false
+  stop_words:
+    first_name_stop_words: res/eng_fn_words
+    last_name_stop_words: res/eng_ln_words
+
+production:
+  files:
+    first_names:
+      path: res/first_names
+      freq: true
+    last_names:
+      path: res/last_names
+      freq: true
+    last_name_prefixes:
+      path: res/last_name_prefixes
+      freq: false
+    prefixes:
+      path: res/prefixes
+      freq: false
+    suffixes:
+      path: res/suffixes
+      freq: false
+  stop_words:
+    first_name_stop_words: res/eng_fn_words
+    last_name_stop_words: res/eng_ln_words
+
